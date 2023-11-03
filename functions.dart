@@ -4,11 +4,14 @@ int fibonacci(int n) {
 }
 
 void fib(int n) {
+  print('function example:');
   var result = fibonacci(n);
   print('fibonacci(20) = ${result}\n');
 }
 
 void arrowFunc() {
+  print('arrow function example:');
   var fruits = ['apple', 'mango', 'banana'];
   fruits.where((fruit) => fruit.isNotEmpty).forEach(print);
+  print('');
 }

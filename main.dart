@@ -10,4 +10,5 @@ void main() {
   control.whileLoop(2023);
 
   func.fib(20);
+  func.arrowFunc();
 }

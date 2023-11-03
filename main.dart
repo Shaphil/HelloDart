@@ -1,6 +1,7 @@
 import 'variables.dart' as vars;
 import 'control_flow.dart' as control;
 import 'functions.dart' as func;
+import 'dart:math' as math;
 
 void main() {
   vars.variables();
@@ -11,4 +12,7 @@ void main() {
 
   func.fib(20);
   func.arrowFunc();
+
+  print('import example:');
+  print('Value of pi from "dart:math" library = ${math.pi}');
 }

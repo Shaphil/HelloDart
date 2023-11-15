@@ -2,7 +2,7 @@ import 'variables.dart' as vars;
 import 'control_flow.dart' as control;
 import 'functions.dart' as func;
 import 'dart:math' as math;
-import 'classes.dart' as classes;
+import 'models/classes.dart' as classes;
 
 void main() {
   vars.variables();

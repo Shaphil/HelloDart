@@ -3,6 +3,7 @@ import 'control_flow.dart' as control;
 import 'functions.dart' as func;
 import 'dart:math' as math;
 import 'models/classes.dart' as classes;
+import 'models/enums.dart' as enums;
 
 void main() {
   vars.variables();
@@ -18,4 +19,7 @@ void main() {
   print('Value of pi from "dart:math" library = ${math.pi}\n');
 
   classes.classExample();
+
+  enums.enumExample(enums.Planet.earth);
+  enums.enumExample(enums.Planet.saturn);
 }

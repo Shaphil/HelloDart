@@ -16,6 +16,5 @@ class Orbiter extends Spacecraft {
 
 void inheritanceExample() {
   var orbiter = new Orbiter('Orbiter', DateTime(1981, 4, 12), 42672);
-  print('');
   orbiter.describe();
 }

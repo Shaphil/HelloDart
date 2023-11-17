@@ -6,6 +6,7 @@ import 'models/classes.dart' as classes;
 import 'models/enums.dart' as enums;
 import 'models/inheritance.dart' as inherit;
 import 'models/mixins.dart' as mixins;
+import 'models/interfaces.dart' as interfaces;
 
 void main() {
   vars.variables();
@@ -31,4 +32,6 @@ void main() {
 
   mixins.mixinsExample();
   print('');
+
+  interfaces.interfacesExample();
 }

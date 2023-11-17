@@ -5,6 +5,7 @@ import 'dart:math' as math;
 import 'models/classes.dart' as classes;
 import 'models/enums.dart' as enums;
 import 'models/inheritance.dart' as inherit;
+import 'models/mixins.dart' as mixins;
 
 void main() {
   vars.variables();
@@ -23,6 +24,11 @@ void main() {
 
   enums.enumExample(enums.Planet.earth);
   enums.enumExample(enums.Planet.saturn);
+  print('');
 
   inherit.inheritanceExample();
+  print('');
+
+  mixins.mixinsExample();
+  print('');
 }

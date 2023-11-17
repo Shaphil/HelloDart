@@ -7,6 +7,7 @@ import 'models/enums.dart' as enums;
 import 'models/inheritance.dart' as inherit;
 import 'models/mixins.dart' as mixins;
 import 'models/interfaces.dart' as interfaces;
+import 'asynchronous.dart' as asynchronous;
 
 void main() {
   vars.variables();
@@ -34,4 +35,8 @@ void main() {
   print('');
 
   interfaces.interfacesExample();
+
+  asynchronous.asyncExample('Delayed Message');
+  Iterable<String> files = {"test1", "test2"};
+  asynchronous.createDescriptions(files);
 }

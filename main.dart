@@ -3,6 +3,7 @@ import 'control_flow.dart' as control;
 import 'functions.dart' as func;
 import 'dart:math' as math;
 import 'models/classes.dart' as classes;
+// import 'models/classes.dart' show Spacecraft;
 import 'models/enums.dart' as enums;
 import 'models/inheritance.dart' as inherit;
 import 'models/mixins.dart' as mixins;
@@ -36,7 +37,13 @@ void main() {
 
   interfaces.interfacesExample();
 
+  // async/await examples
   asynchronous.asyncExample('Delayed Message');
+
   Iterable<String> files = {"test1", "test2"};
   asynchronous.createDescriptions(files);
+
+  // Spacecraft craft = Spacecraft('Razor Crest', DateTime(1971, 1, 5));
+  // Iterable<String> planets = {'mars', 'venus', 'saturn', 'jupiter'};
+  // asynchronous.report(craft, planets);
 }
